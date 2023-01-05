@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*header*/
+.header{
+    padding: 30px 100px;
+    background-image: url(../img/header_bg.png), url(../img/developer.png);
+    background-position: bottom right, left;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+.navber{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navber>h2{
+    width: 75%;
+    font-size: 32px;
+}
+.navber>h2>span{
+    color: #e79762;
+}
+.nav-item{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-item a{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+.nav-item button{
+    padding: 10px;
+    font-size: 16px;
+    background-color: #e46a19;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.developer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.developer-details>ul{
+    display: flex;
+    gap: 30px;
+    padding: 10px 0;
+}
+.developer-details>ul li{
+    list-style: none;
+}
+.developer-details>ul li button{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.cv-link, .cv-btn{
+    border: 1px solid transparent;
+    background-color: #e46a19;
+    color: white;
+}
+.contact{
+    border: 1px solid #e46a19;
+    color: #e46a19;
+}
+/*main*/
+main{
+    padding: 50px 250px;
+}
+/*about*/
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.about-container{
+    text-align: center;
+    background-color: #f2dbcc;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.about-title{
+    color: #656565;
+}
+/*what-i-do*/
+#what-i-do{
+    margin-bottom: 30px;
+}
+.what-i-do-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.what-i-do-container>p{
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    justify-content: space-e
+}
+.skills{
+    background-color: #f5f0e9;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 20px;
+}
+/*resume summary*/
+#resume-summary{
+    margin-bottom: 30px;
+}
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.edu-work-container{
+    display: flex;
+    gap: 10px;
+}
+.degree,.company{
+    margin: 20px 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.cv-btn{
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+/*footer*/
+.footer{
+    background-color: #f2dfd1;
+    padding: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-part{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+.contact-links{
+    display: flex;
+    gap: 10px;
+}
+.contact-part i{
+    font-size: 22px;
+    color: #e46a19;
+}
+.message-part{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+}
+.message-part>form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.message-part>form input, .message-part>form textarea{
+    width: 80%;
+    font-size: 16px;
+    padding: 5px;
+}
+#submit{
+    width: 30%;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 600;
+    background-color: #e46a19;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
